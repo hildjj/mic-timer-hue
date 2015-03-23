@@ -24,9 +24,9 @@ the command line or by specifying a .json filename with `-f`.
 
 ## Keyboard interface
 
-space: (re-)start timer
-c: clear
-q: quit
+* space: (re-)start timer
+* c: clear
+* q: quit
 
 # License
 
