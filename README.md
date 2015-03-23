@@ -22,6 +22,12 @@ the command line or by specifying a .json filename with `-f`.
     -t --time [secs]       Total time to allow
     -f --file [filename]   filename for .json args
 
+## Keyboard interface
+
+space: (re-)start timer
+c: clear
+q: quit
+
 # License
 
 (BSD 2-Clause)
