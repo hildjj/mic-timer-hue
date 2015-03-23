@@ -1,0 +1,27 @@
+{
+  "name": "mic-timer-hue",
+  "version": "1.0.0",
+  "description": "Use Philips Hue lights to alert people in a microphone line that their time is up",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "commander": "^2.7.1",
+    "keypress": "^0.2.1",
+    "node-hue-api": "^1.0.5",
+    "q": "^1.2.0"
+  },
+  "bin": {
+    "miket": "./bin/miket"
+  },
+  "scripts": {
+    "prepublish": "node_modules/.bin/coffee -o lib src"
+  },
+  "author": {
+    "name": "Joe Hildebrand",
+    "email": "joe-github@cursive.net"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
+  }
+}

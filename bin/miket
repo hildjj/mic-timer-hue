@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+// note: sudo apt-get install nodejs-legacy
+
+require('../lib/timer').run(process.argv)
