@@ -3,7 +3,7 @@ Use Philips Hue lights to alert people in a microphone line that their time is u
 
 # Installation
 
-  npm install mic-timer-hue
+    npm install mic-timer-hue
 
 # Usage
 
@@ -11,16 +11,16 @@ Push the button on your Hue gateway.  Run `miket`; it will tell you an IP
 address and user number.  Use those the next time you run `miket`, either on
 the command line or by specifying a .json filename with `-f`.
 
-  miket [options]
+    miket [options]
 
-  Options:
+    Options:
 
-    -h, --help             output usage information
-    -i --ip [address]      IP address
-    -n --num [usernumber]  User number
-    -w --warn [secs]       Warn with [secs] left
-    -t --time [secs]       Total time to allow
-    -f --file [filename]   filename for .json args
+      -h, --help             output usage information
+      -i --ip [address]      IP address
+      -n --num [usernumber]  User number
+      -w --warn [secs]       Warn with [secs] left
+      -t --time [secs]       Total time to allow
+      -f --file [filename]   filename for .json args
 
 ## Keyboard interface
 
