@@ -19,7 +19,7 @@ module.exports = class BlinkenHue
   _connect: ()->
     @hu = new hapi.HueApi @ip, @num, 1000
     @hu.config().then (c) =>
-      if !c.ipaddress? or (c.portalconnection != 'connected')
+      if !c.ipaddress?
         console.log 'Bad config:', c
         process.exit 1
       @
