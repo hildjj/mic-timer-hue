@@ -34,7 +34,7 @@ module.exports = class BlinkenHue
         @ip
 
   start: ->
-    @_getIP().then () =>
+    @_getIP().then (addr) =>
       if @num?
           @_connect()
       else
