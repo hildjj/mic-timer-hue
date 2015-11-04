@@ -20,7 +20,7 @@
     "name": "Joe Hildebrand",
     "email": "joe-github@cursive.net"
   },
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "devDependencies": {
     "coffee-script": "^1.9.1"
   },
